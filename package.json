@@ -1,0 +1,22 @@
+{
+  "name": "bookmarks-web",
+  "version": "1.0.0",
+  "description": "this is my first website",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Soham5102/1st-Project.git"
+  },
+  "author": "SOHAM BHOIR (ThunderBolt)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Soham5102/1st-Project/issues"
+  },
+  "homepage": "https://github.com/Soham5102/1st-Project#readme",
+  "dependencies": {
+    "ejs": "^3.1.6"
+  }
+}

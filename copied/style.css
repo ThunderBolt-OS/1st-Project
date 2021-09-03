@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css2?family=Hahmlet:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
+*{
+    scroll-behavior: smooth;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    
+}
+html {
+    scroll-behavior: smooth;
+}
+
+
+
+
+.giffy {
+    height: 184px;
+    width: 339px;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    text-align: center;
+    padding-right: 0%;
+    background-color: #484c7f;
+
+}
+#bolt{
+    /* font-size: 1px; */
+    resize: 20px;
+}
+
+li, a, button{
+    font-family: "Montserrat";
+    font-size: 17px;
+    /* color: azure; */
+    text-decoration: none;
+}
+
+/* li, a{
+    color: aliceblue;
+} */
+
+header{
+    display: flex;    
+    justify-content: space-between;
+    align-content: center;
+    background-color: #202020
+}
+
+nav a.logo img{
+    margin-top: 9px;
+    margin-left: 5px;
+    cursor: pointer; 
+    height: 38px; 
+    border-radius: 20px;
+}
+
+nav {
+    /* padding-right: 0%; */
+    
+    margin-bottom: 6px;
+    list-style: none;
+    color: white;
+    width: 100%;
+    height: 52px;
+}
+
+label .logo{
+   width: 100%;
+   height: auto;
+
+}
+
+label a img{
+    
+    padding: 20px;
+    border-radius: 31px;
+    height: 158.8%;
+    width: 9.8%;
+    margin-top: -12.3px;
+    
+}
+
+nav ul{
+    float: right;
+    margin-right: 20px;
+}
+
+nav ul li{
+    display: inline-block;
+    line-height: 20px;
+    padding: 18px;
+     
+}
+nav ul li a{
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-transform: uppercase;
+}
+.active:hover{
+    background: rgb(113, 245, 234);
+    border-radius: 8px;
+    padding: 5px;
+    transition: 0.3s ease-in;
+}
+.checkbtn{
+    font-size: 30px;
+    color: white;
+    float: right;
+    line-height: 70px;
+    margin-right: 20px;
+    cursor: pointer;
+    display: none;
+}
+#check {
+    display: none;
+}
+
+@media (max-width:952px) {
+    label.logo{
+        font-size: 30px;
+        padding-left: 45px;
+    }
+    nav ul li a{
+        font-size: 16px;
+
+    }
+    
+}
+@media (max-width:858px){
+    .checkbtn{
+        display: block;
+    }
+    ul{
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background: #b71cd6d8;
+        top: 240px;
+        text-align: center;
+        left: -100%;
+        transition: all 0.5;
+    }
+    nav ul li{
+        display: block;
+        margin: 50px;
+        line-height: 30px;
+
+    }
+    a:hover,a.active{
+        background: none;
+        color: white;
+    }
+    nav ul li a{
+        font-size: 25px;
+    }
+    #check:checked ~ ul{
+        left: 0
+    }
+
+}
+
+main{
+    background-image: url(img_refresh/.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100wh;
+}
+
+
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+}
+  
+.title {
+    color: #8ff5e6;
+    font-size: 25px;
+    font-weight: 500;
+    font-family: 'Indie Flower', cursive;
+    /* margin-top: 46px; */
+    /* padding-top: 20px; */
+    
+} 
+  
+.contactbtn {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+}
+  
+a {
+    text-decoration: none;
+    font-size: 25px;
+   
+}
+  
+.contactbtn:hover, a:hover {
+    opacity: 0.7;
+}
+
+#fb{
+      color: #1094f4;
+}
+#insta{
+      color: #a331aa;
+}
+#twitter{
+      color: #119afb;
+}
+#link{
+      color: #0a66c2;
+}
+.nameme{
+    font-family: 'Open Sans', sans-serif;
+} 
+
+

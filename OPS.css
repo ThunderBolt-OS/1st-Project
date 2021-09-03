@@ -1,0 +1,172 @@
+
+
+*{
+    scroll-behavior: smooth;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+}
+
+.foss {
+    margin: 25px;
+    padding: 21px;
+    height: 229px;
+    width: 375px;
+}
+.googlesoc {
+    margin: 25px;
+    padding: 6px;
+    height: 247px;
+    width: 423px;
+}
+.hyper {
+    margin: 25px;
+    padding: 6px;
+    height: 243px;
+    width: 496px;
+}
+.linu {
+    margin: 25px;
+    padding: 6px;
+    height: 257px;
+    width: 273px;
+}
+.majorh {
+    margin: 26px;
+    padding: 6px;
+    height: 212px;
+    width: 478px;
+}
+.outr {
+    margin: 26px;
+    padding: 6px;
+    height: 132px;
+    width: 466px;
+}
+.opmain {
+    margin: 26px;
+    padding: 6px;
+    height: 216px;
+    width: 261px;
+}
+.ros {
+    margin: 26px;
+    padding: 6px;
+    height: 174px;
+    width: 334px;
+}
+.swo {
+    margin: 17px;
+    padding: 0px;
+    height: 344px;
+    width: 339px;
+}
+
+.butn{
+    border: 2px solid black;
+    background-color: white;
+    color: black;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 16.6px;
+    font: Montserrat;
+}
+
+.fosaasia{
+    border-color: #d40000;
+    color: #d40000;
+
+}
+.fosaasia:hover{
+    background: #d40000;
+    color: white;
+}
+
+
+.ggsoc{
+    border-color:#fbbc05; 
+    color:#fbbc05; 
+    
+}
+
+.ggsoc:hover{
+    background: #fbbc05; 
+    color: white;
+}
+/* .hypp{
+    border-color: 
+    color: 
+
+
+} */
+.hypp:hover {
+    background: #020d1d;
+    color: white;
+}
+
+.linus{
+    border-color: #ffcd05;
+    color: #ffcd05;
+}
+
+.linus:hover{
+    background: #ffd236;
+    border: #ffd236;
+    color:white;
+
+}
+
+.mlhack{
+    border-color: #1e54a0;
+    color: #1e54a0;
+    
+    
+}
+.mlhack:hover{
+    background:#e73427;
+    color: white;
+    border-color:#e73427 ;
+}
+
+.frame{
+    border-color: #2b7de1; 
+    color: #2b7de1;
+
+
+}
+.frame:hover{
+    background: #285794;
+    border-color: #285794;
+    color: white;
+
+}
+
+.reachy{
+    border-color: #58d0e7;
+    color: #58d0e7;
+
+
+}
+.reachy:hover{
+    background: #58d0e7;
+    color: white;
+}
+
+.rsocc:hover{
+    background: #020d1d;
+    color: white;
+
+}
+
+.swot{
+    border-color: #476d9a;
+    color: #476d9a;
+
+}
+.swot:hover {
+    border: #020d1d;
+    background: #020d1d;
+    color: white;
+}
